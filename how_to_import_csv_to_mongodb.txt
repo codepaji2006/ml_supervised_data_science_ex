@@ -1,0 +1,2 @@
+C:\Users\dumbuser\Desktop>mongoimport -d train_db -c approved --type csv --f
+ile "C:\Users\dumbuser\Desktop\historical_applications.csv" --headerline
