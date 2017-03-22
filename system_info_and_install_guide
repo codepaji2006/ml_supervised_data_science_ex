@@ -1,0 +1,13 @@
+   40  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A14518585931BC711F9BA15703C6
+   41  echo "deb [ arch=amd64,arm64 ] http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.4.list
+   42  cat /etc/apt/sources.list.d/mongodb-org-3.4.list 
+   43  sudo apt-get update
+   45  apt list python3.5
+   46  sudo apt-get install -y mongodb-org
+   75  sudo apt-get install python3-pip
+   81  apt list python-pip
+  130  pip install pymongo
+  144  sudo pip3 install pymongo
+  138  pip3 -V
+  139  pip -V
+Linux vpnuser-desktop 4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
