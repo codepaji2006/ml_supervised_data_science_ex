@@ -24,10 +24,9 @@ total_approved=0
 for item in items_ch_is_one:
 	total_matched_items=total_matched_items+1
 	print("lid:%s married:%s income:%d loanstatus:%s"
-%(item['Loan_ID'],item['Married'],item['ApplicantIncome'],item['Loan_Status']))
-        if item['Loan_Status']=='Y':
+	%(item['Loan_ID'],item['Married'],item['ApplicantIncome'],item['Loan_Status']))
+	if item['Loan_Status']=='Y':
 		total_approved=total_approved+1
-
 print("approved:%d total:%d"%(total_approved,total_matched_items))
 
 

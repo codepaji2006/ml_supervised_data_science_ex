@@ -4,7 +4,7 @@ the historical_applications.csv file is a record of past applicants and their pe
 Based on this data, a supervised learning model is formulated manually by assumming some keys as important independent variables.
 The program finally calculates the predictor accuracy of this model.
 
-Supported for only Python 2.7
+Tested on Python 2.7.13/3.5.2
 
 TODO:
 Calculate missing variables to improve accuracy.
