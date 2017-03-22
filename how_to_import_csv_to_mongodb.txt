@@ -1,2 +1,10 @@
+
+For windows:
+----------------
 C:\Users\dumbuser\Desktop>mongoimport -d train_db -c approved --type csv --f
 ile "C:\Users\dumbuser\Desktop\historical_applications.csv" --headerline
+
+For Linux:
+---------------
+
+mongoimport -d train_db -c approved --type csv --file "historical_applications.csv" --headerline
